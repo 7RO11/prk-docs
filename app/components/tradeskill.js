@@ -4,8 +4,8 @@ import dashify from "../utils/dashify";
 
 export default function Tradeskill(props) {
   return (
-    <div className="min-w-full bg-(--background) p-4 border border-neutral-500/50">
-      <div className="flex justify-around *:px-4">
+    <div className="max-w-fit bg-(--background) md:p-4 border border-neutral-500/50">
+      <div className="flex justify-around md:*:px-4">
         <div className="text-2xl flex flex-col items-center text-center">
           <Image
             src={props.source}
@@ -25,7 +25,7 @@ export default function Tradeskill(props) {
             {props.sourceName}
           </Itemlink>
         </div>
-        <div className="border border-neutral-600/0 border-x-neutral-500/50 px-6 text-6xl content-center">
+        <div className="border border-neutral-600/0 border-x-neutral-500/50 md:px-6 text-6xl content-center">
           +
         </div>
         <div className="text-2xl flex flex-col items-center text-center">
@@ -47,7 +47,7 @@ export default function Tradeskill(props) {
             {props.targetName}
           </Itemlink>
         </div>
-        <span className="border border-neutral-600/0 border-x-neutral-500/50 px-6 text-6xl content-center">
+        <span className="border border-neutral-600/0 border-x-neutral-500/50 md:px-6 text-6xl content-center">
           =
         </span>
         <div className="text-2xl flex flex-col items-center text-center">

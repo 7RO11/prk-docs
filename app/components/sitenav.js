@@ -4,6 +4,19 @@ export default function Sitenav(props) {
   return (
     <nav className="flex sticky max-lg:hidden top-14 right-2 mt-[3.5rem] max-h-[calc(105svh-5rem)] overflow-x-hidden min-w-fit max-w-2xl flex-col items-center py-4 m-3 mb-0 pb-0 px-8 bg-(--backgroundContent) border border-neutral-600/30 sm:items-start *:py-2">
       <div className="text-3xl leading-10 tracking-tight text-black dark:text-zinc-300/85">
+        gameplay guides
+      </div>
+      <div>
+        <div className="text-2xl font-light">
+          <Link
+            href={"/gameplay-guides/new-weapons"}
+            className={`border border-neutral-600/0 ${props.currentPage === "newWeapons" ? "border-l-(--foreground)" : "border-l-neutral-500 text-(--foregroundLighterer) transition duration-150 hover:text-(--foreground)"} pl-3`}
+          >
+            New PRK Weapons
+          </Link>
+        </div>
+      </div>
+      <div className="text-3xl leading-10 tracking-tight text-black dark:text-zinc-300/85">
         mission guides
       </div>
       <div>

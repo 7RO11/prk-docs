@@ -17,7 +17,7 @@ export default function gogglesItem() {
           <Mainheader>project rubi-ka docs index</Mainheader>
         </Nobottom>
         <Mainrule />
-        <div className="min-w-2xl">
+        <div className="min-w-2xl text-center sm:items-start sm:text-left">
           <Minorheader>mission guides</Minorheader>
           <Textblock>
             <Linker href={"/mission-guides/gianna-furniture-money"}>

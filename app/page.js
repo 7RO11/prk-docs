@@ -27,6 +27,7 @@ export default function Home() {
             <Link href={"/tradeskill-guides/sentient-targeting-goggles"}>
               Sentient Targeting Goggles
             </Link>
+            <Link href={"/gameplay-guides/new-weapons"}>New PRK Weapons</Link>
             <Link href={"/mission-guides/gianna-furniture-money"}>
               Gianna furniture mission (how to make $ fast)
             </Link>
