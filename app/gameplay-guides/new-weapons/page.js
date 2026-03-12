@@ -38,7 +38,7 @@ export default function NewWeapons() {
           <Minorheader>Subway</Minorheader>
           <Itembox
             itemOne="Overcharged Nova Flow - Mk IV"
-            itemOnePic="/nova.png"
+            itemOnePic="/new-weapons/nova.png"
           />
           <Leaderbottom>drops from Eumenides, 25% chance</Leaderbottom>
 
