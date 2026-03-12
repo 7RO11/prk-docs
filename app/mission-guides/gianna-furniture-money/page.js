@@ -31,7 +31,7 @@ export default function Gianna() {
       <Navbar />
       <Centerpiece>
         <Nobottom>
-          <Leadertop>last updated march 5th, 2026</Leadertop>
+          <Leadertop>last updated march 12th, 2026</Leadertop>
           <Mainheader>Gianna&apos;s furniture mission</Mainheader>
           <Leaderbottom>make a quick buck at any level</Leaderbottom>
         </Nobottom>
@@ -99,9 +99,10 @@ export default function Gianna() {
           </Textblock>
           <Image src={topietroPic} alt="pietro hiding like a little baby" />
           <WarningBlock>
-            while searching for Pietro, do not press tab or left click on
-            Pietro. doing so will forfeit 1/2 of the mission&apos;s possible
-            rewards
+            if you select pietro before talking to him, you will have to go
+            through his dialogue for an envelope. take the ring out and then
+            delete your quests. then you can repeat the dialogue for a second
+            envelope which makes a second ring.
           </WarningBlock>
           <Softrule />
           <Leadertop>dialogue</Leadertop>
